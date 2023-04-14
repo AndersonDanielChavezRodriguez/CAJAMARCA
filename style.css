@@ -85,8 +85,10 @@ body{
     position: absolute;
     top: 120%;
     left: 28%;
+    background-color: #F3B74F;
     
 }
 #img{
     width: 800px;
+    margin: 50px;
 }
