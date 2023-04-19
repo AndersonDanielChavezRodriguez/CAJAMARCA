@@ -6,18 +6,24 @@
 ::-webkit-scrollbar{
     width: 0px;
 }
-.sec{
+
+.fondo{
+    animation: zoom 15s ease-in-out infinite alternate;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    min-height: 300px;
-}
-#sec1{
-    position: relative;
-    overflow: hidden;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 .barra{
     position: relative;
     height: 50px;
     background-color:#89EBF5;
+    z-index: 1;
 }
 .logo{
     position: absolute;
