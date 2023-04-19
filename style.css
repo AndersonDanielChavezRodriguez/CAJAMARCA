@@ -6,10 +6,13 @@
 ::-webkit-scrollbar{
     width: 0px;
 }
-body{
-    background-image: url(FONDO.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
+.sec{
+    width: 100%;
+    min-height: 300px;
+}
+#sec1{
+    position: relative;
+    overflow: hidden;
 }
 .barra{
     position: relative;
@@ -26,7 +29,7 @@ body{
 }
 .title{
     position: absolute;
-    left: 3%;
+    left: 60px;
     top: 2.3px;
     font-family: 'Tilt Prism', cursive;
     background: linear-gradient(70deg,#F3B74F , #F4E422 ,#F3B74F,#F4E422 ,#F3B74F );
@@ -43,21 +46,21 @@ body{
     color: #F3B74F;
 }
 #D{
-    left: 70%;
+    left: 790px;
 }
 #H{
-    left: 80%;
+    left: 985px;
 }
 #C{
-    left: 86%;
+    left: 1100px;
 }
 #I{
-    left: 91%;
+    left: 1200px;
 }
 .first{
     position: absolute;
     top: 200px;
-    left: 28%;
+    left: 270px;
     width: 800px;
     display: block;
 }
@@ -71,14 +74,14 @@ body{
 .descript{
     position: absolute;
     display: block;
-    top: 600px;
+    top: 530px;
     left: 0%;
     width: 1s000px;
 }
 #two{
     color: #F3B74F;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
 }
 .img{
