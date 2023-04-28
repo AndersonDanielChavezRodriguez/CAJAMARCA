@@ -12,7 +12,6 @@
 }
 
 .fondo{
-    animation: zoom 15s ease-in-out infinite alternate;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -23,13 +22,11 @@
     display: block;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
 }
 .barra{
     position: relative;
     height: 50px;
     background-color:#89EBF5;
-    z-index: 1;
 }
 .logo{
     position: absolute;
